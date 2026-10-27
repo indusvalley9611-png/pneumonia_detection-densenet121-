@@ -1,1 +1,38 @@
 
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints and large files
+*.keras
+*.h5
+*.pkl
+*.joblib
+*.weights.h5
+
+# Dataset files
+data/
+datasets/
+stage_2_train_images/
+stage_2_test_images/
+*.dcm
+*.zip
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
